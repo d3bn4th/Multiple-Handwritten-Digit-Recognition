@@ -45,8 +45,8 @@ def Recognize_Digit():
     filename = f'img_{image_number}.png'
     widget = cv
 
-    x = root.winfo_rootx() + widget.winfo_rootx()
-    y = root.winfo_rooty() + widget.winfo_rooty()
+    x = root.winfo_rootx()
+    y = root.winfo_rooty()
     x1 = x + widget.winfo_width()
     y1 = y + widget.winfo_height()
     print(x, y, x1, y1)
@@ -90,6 +90,8 @@ def Recognize_Digit():
 
     cv2.imshow('image', image)
     cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
 
 
 btn_save = Button(text='Recognize Digit', command=Recognize_Digit)
