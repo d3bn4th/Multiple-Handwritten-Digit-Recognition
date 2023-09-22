@@ -23,17 +23,3 @@
 
 * Use saved model 'mnist.h5' to predict saved Handwritten Digit image from canvas
 
-# Screenshots
-
-* Drawing canvas ...
-
-<img src="gui/drawing_canvas_window.png?raw=true" width="1920" height="1080">
-
-* Output Imgae ...
-
-<img src="gui/predicted_image.png?raw=true" width="1920" height="1080">
-
-* Saved Image using PIL-ImageGrab ...
-
-<img src="img/img_0.png?raw=true" width="784" height="784">
-
